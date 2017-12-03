@@ -12,5 +12,8 @@
 */
 
 $app->get('/', function () use ($app) {
-    return $app->version();
+    return "BNR rates";
 });
+
+$app->get('/rate/{currency}/{date}', 'RateController@rate');
+$app->get('/rate/{currency}', 'RateController@rate');

@@ -12,7 +12,9 @@ class Rate extends Model
      * @var array
      */
     protected $fillable = [
-        'currency_id', 'rate',
+        'currency_id', 'rate', 'created_at', 'multiplier'
     ];
+
+    public $timestamps = false;
 
 }
