@@ -42,9 +42,6 @@ class ImportHistoryRates extends Command
     public function handle()
     {
 
-        // - current rates - http://www.bnr.ro/nbrfxrates.xml
-        // - gis example - https://gist.github.com/akizor/a5aee0b62f4390dcf79eca6cf29a4888
-
         $xmlDocument = null;
 
         if(($xmlDocument = @file_get_contents($this->argument('file'))) === false){

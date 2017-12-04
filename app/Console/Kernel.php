@@ -13,7 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        \App\Console\Commands\ImportHistoryRates::class
+        \App\Console\Commands\ImportHistoryRates::class,
+        \App\Console\Commands\ImportDailyRates::class,
     ];
 
     /**
