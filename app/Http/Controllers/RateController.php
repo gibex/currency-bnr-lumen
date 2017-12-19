@@ -64,7 +64,10 @@ class RateController extends BaseController
 
         $first = Rate::where([
             'currency_id' => $currency->id
-        ])->whereBetween('created_at', [$start, $date])->get()->first();
+        ])->whereBetween('created_at', [$start, $date])
+            ->orderBy('created_at', 'DESC')
+            ->get()
+            ->first();
 
         return $first;
 
