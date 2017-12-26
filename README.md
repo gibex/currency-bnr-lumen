@@ -1,4 +1,4 @@
-# API pentru cursul valutar BNR (Laravel Lumen) - Small API for BNR currency
+# API pentru cursul valutar BNR (Laravel Lumen)
 Raspunsul dat API in format JSON
 
 ## Instalare
@@ -22,5 +22,5 @@ http://currency.joover.com/rate/USD/10-01-2017 - cursul USD din 10/01/2017
 
 ## Cursul istoric
 
-Cursul pe ani poate fi obtinut de pe (site-ul BNR)[http://www.bnr.ro/Raport-statistic-606.aspx]
+Cursul pe ani poate fi obtinut de pe [site-ul BNR](http://www.bnr.ro/Raport-statistic-606.aspx)
 
