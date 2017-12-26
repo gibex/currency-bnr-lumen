@@ -1,4 +1,5 @@
-# API pentru cursul valutar BNR (Laravel Lumen)
+# API pentru cursul valutar BNR (Laravel Lumen) - Small API for BNR currency
+Raspunsul dat API in format JSON
 
 ## Instalare
 ```
@@ -15,6 +16,11 @@ Pentru cursul zilnic adaugati in crontab linia
 
 ## Utilizare
 http://currency.joover.com/rate/USD - ultimul curs USD
+
 http://currency.joover.com/rate/USD/10-01-2017 - cursul USD din 10/01/2017
 
+
+## Cursul istoric
+
+Cursul pe ani poate fi obtinut de pe (site-ul BNR)[http://www.bnr.ro/Raport-statistic-606.aspx]
 
