@@ -1,5 +1,5 @@
-# API pentru cursul valutar BNR (Laravel Lumen)
-Raspunsul dat API in format JSON
+# API curs valutar BNR (Laravel Lumen)
+Raspunsul dat de API este in format JSON
 
 ## Instalare
 ```
